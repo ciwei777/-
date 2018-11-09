@@ -1,0 +1,194 @@
+@charset "UTF-8";
+.banner604 {
+    position: relative;
+}
+.banner604 a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 604px;
+    background: url("../images/banner.jpg") no-repeat top center;
+}
+.main {
+    position: relative;
+    padding-top: 12px;
+    padding-left: 220px;
+    width: 990px;
+}
+.main .slider {
+    position: relative;
+    width: 730px;
+    height: 453px;
+    float: left;
+}
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    width: 28px;
+    height: 62px;
+    color: #fff;
+    font: 500 18px/62px "SimSun";
+    text-align: center;
+    background: rgba(0,0,0,.2);
+}
+.arrow a:hover {
+    background: rgba(0,0,0,.4);
+    color: #fff;
+}
+.arrow-l {
+    left: 0;
+}
+.arrow-r {
+    right: 0;
+}
+.slider .circle {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    margin-left: -66px;
+}
+.slider li {
+    margin: 0 2px;
+    float: left;
+    width: 18px;
+    height: 18px;
+    color: #fff;
+    line-height: 18px;
+    text-align: center;
+    background-color: #3E3E3E;
+    border-radius: 50%;
+    cursor: pointer;
+}
+li.current {
+    background-color: #B61B1F;
+}
+.circle li:hover {
+    background-color: #B61B1F;
+}
+.main .news {
+    width: 248px;
+    height: 451px;
+    border: 1px solid #E4E4E4;
+    float: right;
+}
+.jd-news {
+    height: 200px;
+    border-bottom: 1px dashed #E8E8E7;
+}
+.jd-news ul {
+    padding-left: 15px;
+    padding-top: 8px;
+}
+.jd-news li {
+    height: 28px;
+    line-height: 28px;
+}
+.jd-news li span {
+    font-weight: 700;
+    padding-right: 5px;
+}
+.jd-life {
+    height: 251px;
+    overflow: hidden;
+}
+.jd-life ul {
+    width: 252px;
+}
+.jd-life li {
+    width: 62px;
+    height: 70px;
+    border: 1px solid #E4E4E4;
+    border-top: 0;
+    float: left;
+    margin-left: -1px;
+}
+.jd-life a {
+    position: relative;
+    display: block;
+    height: 70px;
+    padding-top: 44px;
+    text-align: center;
+}
+.jd-life i {
+    position: absolute;
+    top: 13px;
+    left: 50%;
+    margin-left: -13px;
+    width: 25px;
+    height: 25px;
+}
+.life-icon1 {
+    background: url("../images/spriteicon.png") no-repeat;
+}
+.life-icon2 {
+    background: url("../images/spriteicon.png") no-repeat;
+}
+.life-icon3 {
+    background: url("../images/spriteicon.png") no-repeat;
+}
+.life-icon4 {
+    background: url("../images/spriteicon.png") no-repeat;
+}
+.life-icon5 {
+    background: url("../images/spriteicon.png") no-repeat;
+}
+.life-icon6 {
+    background: url("../images/spriteicon.png") no-repeat;
+}
+.life-icon7 {
+    background: url("../images/spriteicon.png") no-repeat;
+}
+.life-icon8 {
+    background: url("../images/spriteicon.png") no-repeat;
+}
+.life-icon9 {
+    background: url("../images/spriteicon.png") no-repeat;
+}
+.life-icon10 {
+    background: url("../images/spriteicon.png") no-repeat;
+}
+.life-icon11 {
+    background: url("../images/spriteicon.png") no-repeat;
+}
+.life-icon12 {
+    background: url("../images/spriteicon.png") no-repeat;
+}
+.jd-news .dt,
+.jd-life .dt {
+    height: 43px;
+    border-bottom: 1px dotted #E8E8E7;
+}
+.jd-news .dt a {
+    padding-right: 15px;
+    float: right;
+    font: 13px/43px "SimSun";
+}
+.jd-news .dt h3,
+.jd-life .dt h3 {
+    float: left;
+    font: 14px/43px "Microsoft YaHei";
+    padding-left: 15px;
+}
+.activity {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+.act-l  {
+    float: left;
+}
+.act-r  {
+    float: right;
+    width: 1000px;
+    height: 160px;
+}
+.act-r ul {
+    width: 500%;
+}
+.act-r li {
+    float: left;
+    margin-right: 1px;
+}

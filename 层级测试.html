@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .test {
+            width: 150px;
+            height: 400px;
+            margin-top: 100px;
+            float: left;
+            border: 1px solid #ccc;
+            margin-left: -1px;
+            position: relative;
+        }
+        .test:hover {
+            /*方法一：给盒子伪类加定位使其得到层级*/
+            /*position: relative;*/
+            /*方法二：使所有盒子加定位得到层级，伪类盒子增加层级*/
+            z-index: 1;
+            border: 1px solid #ff4f70;
+        }
+    </style>
+</head>
+<body>
+    <div class="test"></div>
+    <div class="test"></div>
+    <div class="test"></div>
+    <div class="test"></div>
+    <div class="test"></div>
+</body>
+</html>
